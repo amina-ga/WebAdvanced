@@ -1,0 +1,13 @@
+@font-face{
+    src: url("fonts/Fakeidentity.ttf");
+    font-family: "Fake Identity" ;
+
+
+}
+
+h1{
+    color: green;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    font-family: "Fake Identity" ;
+}
