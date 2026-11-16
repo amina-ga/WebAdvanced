@@ -28,6 +28,7 @@ nav {
 .logo{
     font-size: 35px;
     font-weight: bold;
+    margin-left: 24px;
 }
 
 nav ul{
@@ -66,27 +67,54 @@ nav a{
     margin: 21px;
 }
 
-.shop-button{
-    display: inline-block;
-    background-color: #f8f5f8;
-    color: #342c26;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 12px;
+.pic{
+    height: 450px;
+    object-fit: cover;
 }
 
-.products{
-    padding: 70px 6%;
+
+#heading{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.p-text{
+    display: right;
+    padding: right;
+}
+
+.paragraf{
+    text-align: center;
+    padding: 50px;
+}
+
+.img {
+ margin-left: 24px;
+}
+
+.container{
+    display: flex;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.abt-text{
+    padding-top: 52px;
+}
+
+footer {
+    background-color: #d8c7b7;
+    padding: 50px;
     text-align: center;
 }
 
-.products h2{
-    font-size: 25px;
-    margin-bottom: 40px;
-}
-
-.product-grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
+footer h2{
+    font-size: 35px;
+    margin-bottom: 10px;
 }
